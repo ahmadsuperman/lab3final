@@ -29,5 +29,7 @@
         "env.bak{,/**}",
         "venv.bak{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d4d49b9e-8d51-48c1-8ec3-a2182c72f7fb/resourceGroups/CST8915/providers/Microsoft.Web/sites/ahmaduserservice",
+    "appService.deploySubpath": "."
 }

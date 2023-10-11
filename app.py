@@ -1,8 +1,12 @@
-# user_service.py
+# app.py
 
 from flask import Flask, jsonify
 
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+   return "Welcome to flask : Your container is running "
 
 @app.route('/user/<id>')
 def user(id):
